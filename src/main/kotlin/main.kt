@@ -1,7 +1,7 @@
 fun main() {
-    val likes = 91
+    val likes = 1011
     val rightWord = when {
-        likes == 11 -> "людям"
+        likes % 100 == 11 -> "людям"
         likes % 10 == 1 -> "человеку"
         else -> "людям"
     }
